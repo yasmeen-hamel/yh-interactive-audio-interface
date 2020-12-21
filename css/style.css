@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
 
 :root{
-    --col-bg:#6155a6;
-    --col-fore: #a685e2;
-    --col-bg-mid: #ffabe1;
-    --col-bg-ward: #ffe6e6;
+    --col-bg:#0d2a41;
+    --col-fore: #9ddfd3;
+    --col-bg-mid: #dbf6e9;
+    --col-bg-ward: #ffdada;
     --sans:'Orbitron', sans-serif;
   }
 
   h1, h2{
     font-family: var(--sans);
     font-weight: 600;
+    font-size: 20px, 25px;
     line-height: 2;
     margin: 0.5em 0;
     padding:1em;
@@ -31,6 +32,7 @@ body{
 }
 
 .ufo{
+    border-radius: 2em;
     width:55%;
     margin: auto auto;
     padding:20px;
