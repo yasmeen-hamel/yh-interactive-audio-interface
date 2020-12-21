@@ -9,22 +9,25 @@
 </head>
 <body>
     <header>
-        <h1>Galaxy Mixer</h1>
+        
+        <h1>Galaxy Mixer:</h1>
         <h2>Mix and match the sounds of Space</h2>
+        <img class="ufo" src="img/ufo.jpg">
     </header>
+    <div>
+        
+    </div>
     
-    <main class="grid-area">
-        <div>
-            <div id="player">
-                <div id="tune0"><audio src="audio/tune0.mp3"></audio><button>►</button></div>
-                <div id="tune1"><audio src="audio/tune1.wav"></audio><button>►</button></div>
-                <div id="tune2"><audio src="audio/tune2.wav"></audio><button>►</button></div>
-                <div id="tune3"><audio src="audio/tune3.wav"></audio><button>►</button></div>
-                <div id="tune4"><audio src="audio/tune4.wav"></audio><button>►</button></div>
-                <div id="tune5"><audio src="audio/tune5.wav"></audio><button>►</button></div>
+    
+    <main class="grid-container">
+            <div class="tn0"><audio src="audio/tune0.mp3" id="tune0"></audio><img class="svg" src="img/play.svg"><img class="svg" src="img/pause.svg"></div>
+            <div class="tn1"><audio src="audio/tune1.wav"id="tune1"></audio><img class="svg" src="img/play.svg"><img class="svg" src="img/pause.svg"></div>
+            <div class="tn2"><audio src="audio/tune2.wav" id="tune2"></audio><img class="svg" src="img/play.svg"><img class="svg" src="img/pause.svg"></div>
+            <div class="tn3"><audio src="audio/tune3.wav" id="tune3"></audio><img class="svg" src="img/play.svg"><img class="svg" src="img/pause.svg"></div>
+            <div class="tn4"><audio src="audio/tune4.wav" id="tune4"></audio><img class="svg" src="img/play.svg"><img class="svg" src="img/pause.svg"></div>
+            <div class="tn5"><audio src="audio/tune5.wav"id="tune5"></audio><img class="svg" src="img/play.svg"><img class="svg" src="img/pause.svg"></div>
             </div>
-        </div>
     </main>
-    
+   <script src="js/script.js"></script> 
 </body>
 </html>
