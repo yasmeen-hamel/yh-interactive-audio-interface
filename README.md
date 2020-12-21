@@ -25,39 +25,10 @@ css:
 
 script:
 
-audio function 
-play/pause
-conditions 
-event listener
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- audio function 
+- play/pause
+- conditions 
+- event listener
 
 ----------------
 ##Resources:
@@ -80,14 +51,6 @@ https://www.flaticon.com/collections/MTUyODgyNTI=
 colour palette :
 
 https://colorhunt.co/palette/220192
-
-
-
-
-
-
-css:
-
 
 
 js:
